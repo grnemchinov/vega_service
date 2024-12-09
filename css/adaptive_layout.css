@@ -5,6 +5,9 @@
     height: 100%;
     padding-left: 5%;
 }
+.sinBlock2{
+    font-size: 1.3rem;
+}
 .ohoho{
     font-size: 20px;
     display: block;
@@ -34,6 +37,21 @@
     text-align: start;
     margin-left: 20%;
     font-size: 20px; 
+}
+.texts{
+    font-size: 1.7rem;
+
+}
+.gg{
+    font-size: 1.5rem;
+   padding-left: 10%;
+   padding-right: 15%;
+}
+.tex{
+    font-size: 1.3rem;
+}
+.serBlock {
+    font-size: 1.5rem;
 }
     
 }
@@ -102,6 +120,14 @@
     text-align: start;
     margin-left: 15%;
     font-size: 18px; 
+}
+.texts{
+    font-size: 1.2rem;
+}
+.gg{
+    font-size: 1.4rem;
+   padding-left: 10%;
+   padding-right: 15%;
 }
 }
 

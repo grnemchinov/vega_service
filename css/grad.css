@@ -116,7 +116,6 @@ ul li a {
 
 
 .realFone{
-    display: grid;
     margin-top: -0.1%;
     width: 100%;
     height: 100%;
@@ -277,7 +276,7 @@ ul li a {
 .newraz {
     margin-top: 3%;
     width: 100%;
-    display: grid;
+    display: flex;
     height:600px;
     justify-content: center;
 }
@@ -333,65 +332,4 @@ ul li a {
     margin-left: 20%;
     font-size: 2rem; 
     width: 80%; 
-}
-@media (max-width: 1470px) {
-    .content{
-    margin-top: 60%;
-}
-    
-}
-@media (max-width: 1224px) {
-    header {
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 10px;
-    }
-
-    .nnn nav ul {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .realFone .uslugi, .realFone .prod {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-    .content{
-    margin-top: 70%;
-}
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nnn nav ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-
-
-    .prod .card, .uslugi .fotki {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-
-@media (max-width: 480px) {
-    header img {
-        width: 50%;
-    }
-
-    .nom p {
-        font-size: 14px;
-    }
-
-    .textusl p, .central-text {
-        font-size: 1.5rem;
-        text-align: center;
-    }
 }
