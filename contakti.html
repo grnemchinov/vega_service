@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contakti.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/adaptive_layout.css">
+    <title>Мой сайт</title>
+</head>
+<body>
+    <header>
+        <div class="izob">
+            <a href="index.html"> <img src="img/logo.png"> </a>
+        </div>
+        <div class="nnn">
+            <div class="top-nav">
+                <nav>
+                    <ul>
+                        <li><a href="grad.html">Градуировка резервуаров</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="center-nav">
+                <nav>
+                    <ul>
+                        <li><a href="monitor.html">ГЛОНАСС</a></li>
+                        <li><a href="tahogr.html">Тахографы</a></li>
+                        <li><a href="contakti.html">Контакты</a></li>
+                        <li><a href="oKompanii.html">О компании</a></li>
+                        <li><a href="podgot.html">Подготовка к ДОПОГ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bottom-nav">
+                <nav>
+                    <ul>
+                        <li><a href="calibr.html">Калибровка и поверка автоцистерн</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="nom">
+            <p>8(905)-861-50-01, <br>
+                8(912)-110-90-17</p>
+        </div>
+        
+       
+        
+        
+    </header>
+    <div class="sad">
+        <div class="left"></div>
+        <div class="center">
+            <p>Контакты</p>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+
+
+
+
+    <div class="realFone">
+        <div class="razdel">
+            <div class="levaya">
+                <div class="sinBlock">
+                    <p>
+                        Контактные данные ООО «ВЕГА СЕРВИС» <br>
+                        8(342)259-20-83 (многоканальный)<br>
+                        г. Пермь, улица рязанская 101, офис №1<br>
+                        vegaservise@yandex.ru<br>
+                        <br>
+                        Отдел продаж:<br>
+                        8(905)861-50-01<br>
+                        <br>
+                        1) Республика Коми, г.Усинск, ул.Промышленная 19, 3 этаж<br><br>
+                        2) Пгт. Уренгой, мкр. Таежный, промзона Восточная<br><br>
+                        3) Забайкальский край, Читинский район, село Засопка<br><br>
+                        </p>
+                </div>
+                <div class="sinTR">
+
+                </div>
+            </div>
+            <div class="pravaya">
+                <img src="img/image 72.png">
+            </div>
+        </div>
+        <div class="otpr">
+            <div class="pust">
+
+            </div>
+            <div class="idk">
+                <p>
+                    Связаться с нами
+                </p>
+            </div>
+            <form id="contact-form" action="https://formspree.io/f/xzzbpnan" method="POST">
+                <div class="marla">
+                    <div class="qqq">
+                        <textarea name="name" placeholder="ФИО" required></textarea>
+                    </div>
+                    <div class="qqq">
+                        <textarea name="email" placeholder="Email" required></textarea>
+                    </div>
+                </div>
+                <div class="posd">
+                    <textarea id="jj" name="message" placeholder="Введите текст..." required></textarea>
+                </div>
+                <div class="tr">
+                
+                </div>
+                <div class="button">
+                    <input type="submit" value="Отправить заявку" />
+                </div>
+            </form>
+            
+            
+        </div>
+      
+
+    </div>
+    <footer>
+        <div class="levo">
+            <img src="img/logo.png" >
+            <p> ©2015 ООО «Вега»</p>
+        </div>
+        <div class="pravo" >
+            <p id="nomer">8(342)259-20-83</p>
+            <p>г. Пермь, улица Рязанская 101, офис №1</p>
+        </div>
+    </footer>
+
+
+</body>
+<script>
+    document.getElementById('contact-form').addEventListener('submit', async function(event) {
+        event.preventDefault();
+        const form = event.target;
+
+        try {
+            const formData = new FormData(form);
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                alert('Сообщение успешно отправлено!');
+                form.reset();
+            } else {
+                alert('Ошибка при отправке сообщения. Попробуйте снова.');
+            }
+        } catch (error) {
+            alert('Ошибка при отправке сообщения: ' + error.message);
+        }
+    });
+</script>

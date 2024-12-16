@@ -1,0 +1,198 @@
+@media (max-width: 1470px) {
+    .sinBlock {
+    white-space: wrap;
+    font-size: 20px;
+    height: 100%;
+    padding-left: 5%;
+}
+.sinBlock2{
+    font-size: 1.3rem;
+}
+.ohoho{
+    font-size: 20px;
+    display: block;
+    white-space: wrap;
+    width: 80%; 
+    margin-left: 10%;
+}
+
+.QWE_podgot {
+    display: flex;
+    justify-content: center;
+    white-space: wrap;
+    width: 100%;
+    font-size: 20px;
+}
+
+.upad{
+    font-size: 1.5rem;
+    margin: 5%;
+}
+.foof img{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.hz{
+    text-align: start;
+    margin-left: 20%;
+    font-size: 20px; 
+}
+.texts{
+    font-size: 1.7rem;
+
+}
+.gg{
+    font-size: 1.5rem;
+   padding-left: 10%;
+   padding-right: 15%;
+}
+.tex{
+    font-size: 1.3rem;
+}
+.serBlock {
+    font-size: 1.5rem;
+}
+
+.newraz {
+    width: 80%;
+    height:10%;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.bl{
+    place-items: center;
+}
+.pz{
+    place-items: center;
+}
+.QWE {
+    width: 40%; 
+}
+
+.hren{
+    margin-left: 50%;
+}
+.foof img{
+    height: 120%;
+    width: 150%;
+}
+
+    
+}
+@media (max-width: 1224px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .sinBlock {
+    white-space: wrap;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 5%;
+    }
+.fotokarti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: -3%;
+    gap: 10%; 
+    }
+.ohoho{
+    font-size: 20px;
+    display: block;
+    white-space: wrap;
+    width: 80%; 
+    margin-left: 10%;
+    }
+
+.QWE_podgot {
+    display: flex;
+    justify-content: center;
+    white-space: wrap;
+    width: 20%;
+    font-size: 20px;
+    }
+.per{
+    width: 50%;
+    }
+.nescafe{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+.rofl{
+    height: 50%;
+}
+.rofl img{
+    height: 50%;
+}
+.upad{
+    font-size: 1.2rem;
+    margin: 5%;
+}
+.foof img{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    height: 80%;
+}
+.hz{
+    text-align: start;
+    margin-left: 15%;
+    font-size: 18px; 
+}
+.texts{
+    font-size: 1.2rem;
+}
+.gg{
+    font-size: 1.4rem;
+   padding-left: 10%;
+   padding-right: 15%;
+}
+.foof img{
+    height: 110%;
+    width: 130%;
+}
+}
+
+@media (max-width: 995px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nnn nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .prod .card, .uslugi .fotki {
+        width: 100%;
+        max-width: 300px;
+    }
+    .realFone{
+        z-index: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        width: 50%;
+    }
+
+    .nom p {
+        font-size: 14px;
+    }
+
+    .textusl p, .central-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
